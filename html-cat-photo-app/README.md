@@ -17,3 +17,17 @@ It showcases basic HTML structure and image handling, and it's the very first st
 ## 📸 Preview
 
 ![screenshot](./screenshot.png)
+## 🎯 Future Upgrades
+
+- [ ] Add CSS for layout and styling
+- [ ] Make it responsive for mobile
+- [ ] Add more sections like “About My Cat”
+
+## 💡 Bonus
+
+This project is part of my larger repo:
+👉 [FreeCodeCamp Workshops](https://github.com/daniyal-devx/freecodecamp-workshops)
+
+---
+
+Made with 💻 by [Daniyal Usman](https://github.com/daniyal-devx)
