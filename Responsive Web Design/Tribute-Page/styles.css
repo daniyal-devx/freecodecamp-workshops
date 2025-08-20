@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+
+
+}
+
+#img {
+    max-width: 100%;
+    height: auto;
+    margin: 0% auto;
+}
+
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+    display: block;
+}
+
+figure {
+    background: #fff;
+    max-width: 100%;
+    display: block;
+    padding: 10px;
+}
+
+section {
+    display: block;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+
+a:link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    #main {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+
+    #img-div {
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+    }
+
+    #tribute-list {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    em {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
+
+/* Mobile Styles (480px and below) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #main {
+        margin: 0.5rem;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+
+    #img-div {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    #img-caption {
+        font-size: 0.8rem;
+    }
+
+    #tribute-list {
+        padding: 0 0.5rem;
+    }
+
+    #tribute-list li {
+        margin-bottom: 0.8rem;
+        padding-left: 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    em {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+        margin: 1.5rem 0;
+    }
+
+    footer {
+        margin-top: 2rem;
+        font-size: 0.8rem;
+    }
+}
+
+/* Large Mobile Styles (600px and below) */
+@media (max-width: 600px) {
+    #tribute-list {
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Extra Small Screens (360px and below) */
+@media (max-width: 360px) {
+    #main {
+        margin: 0.25rem;
+        padding: 0.75rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    #img-div {
+        padding: 0.75rem;
+    }
+}
